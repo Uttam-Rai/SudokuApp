@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block11"
+                layout="@layout/fragement_layout"
+                ></include>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block12"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block13"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block21"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block22"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block23"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block31"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll32"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block32"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <include
+                android:id="@+id/block33"
+                layout="@layout/fragement_layout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

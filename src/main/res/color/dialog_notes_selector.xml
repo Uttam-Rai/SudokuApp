@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="?colorPrimary" android:state_selected="true" />
+    <item android:color="?android:textColorTertiary" android:state_selected="false" />
+
+    <color name="primary_color">#ff15b76d</color>
+    <color name="secondary_color">#ff0bc26e</color>
+    <color name="primary_dark_color">#ff109e5d</color>
+
+    <color name="sesl_thumb_control_color_activated">@color/primary_color</color>
+
+    <color name="red">#ffD50000</color>
+    <color name="yellow">#ffFFD600</color>
+    <color name="green">#ff009808</color>
+    <color name="blue">#ff304FFE</color>
+    <color name="orange">#ffFF6D00</color>
+    <color name="cyan">#ff00BFA5</color>
+    <color name="magenta">#ffC51162</color>
+    <color name="white">#ffffffff</color>
+
+    <!-- New background color -->
+    <color name="background_black">#1A1919</color>
+
+    <!-- Common standard colors that might be useful -->
+    <color name="black">#FF000000</color> <!-- Pure black -->
+    <color name="transparent">#00000000</color> <!-- Fully transparent -->
+    <color name="light_gray">#FFD3D3D3</color>
+    <color name="dark_gray">#FFA9A9A9</color>
+</selector>

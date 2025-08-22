@@ -1,6 +1,6 @@
-# Sudoku TDIUO - Android App
+# Sudoku Master - Android App
 
-A classic **Sudoku puzzle game** Android app developed in Java with multiple difficulty levels, sharing features, and persistent game data storage.
+**Sudoku Master** is a classic **Sudoku puzzle game** Android app developed in Java. It features multiple difficulty levels, sharing options, and persistent game data storage for an engaging mobile experience.
 
 ---
 
@@ -32,43 +32,7 @@ A classic **Sudoku puzzle game** Android app developed in Java with multiple dif
 ## Installation
 
 1. Clone the repository:
-2. Open the project in Android Studio.
-3. Build and run the app on your device or emulator.
-
----
-
-## Usage
-
-- Select **Easy** or **Hard** mode from the main menu.
-- Fill in the Sudoku grid by tapping cells and entering numbers.
-- Use hints or reset the puzzle as needed.
-- Save your progress automatically or manually.
-- Share puzzles with friends using the share button.
-
----
-
-## Technologies Used
-
-- **Java** for Android app development
-- **Android SDK** and **Android Studio**
-- **SQLite** for local data persistence
-- **Intent Sharing** for puzzle sharing feature
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests for improvements.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-For any questions or feedback, please contact:  
-Your Name — your.email@example.com
+   ```bash
+   
+   git clone <repository-url>
+c
